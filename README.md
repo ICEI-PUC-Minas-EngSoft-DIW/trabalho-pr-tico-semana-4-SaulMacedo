@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Saul de Castro Macedo
+- Matricula: 911423
+- Proposta de projeto escolhida: Proposta 2
+- Breve descrição sobre seu projeto: Uma página que mostra lugares e agtrações turisticas para visitar
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img src='template.png'
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img src='site.png'>

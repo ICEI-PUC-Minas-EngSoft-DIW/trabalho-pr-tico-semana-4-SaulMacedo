@@ -1,3 +1,153 @@
+/* Reset simples */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Corpo geral */
 body {
-    background-color: aquamarine;
+font-family: Arial, sans-serif;
+line-height: 1.5;
+}
+
+/* HEADER */
+.site-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 32px; /* box-model: padding */
+background-color: #222;
+color: #fff;
+position: sticky; /* position */
+top: 0;
+}
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.main-nav ul {
+list-style: none;
+display: flex; /* display */
+gap: 16px;
+}
+
+.main-nav a {
+color: #fff;
+text-decoration: none;
+}
+
+.main-nav a:hover {
+text-decoration: underline;
+}
+
+/* MAIN / HERO */
+.site-main {
+padding: 24px 32px; /* box-model: padding */
+}
+
+.hero {
+display: flex; /* display */
+flex-wrap: wrap;
+gap: 24px;
+margin-bottom: 40px; /* box-model: margin */
+}
+
+.hero-text {
+flex: 1 1 300px;
+}
+
+.hero-image {
+flex: 1 1 300px;
+}
+
+.hero-image img {
+max-width: 100%;
+display: block;
+border-radius: 8px;
+}
+
+/* Botões genéricos */
+.btn-primario,
+.btn-secundario {
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+margin-top: 12px; /* margin */
+}
+
+.btn-primario {
+background-color: #007bff;
+color: #fff;
+}
+
+.btn-secundario {
+background-color: #eee;
+}
+
+/* DESTAQUES / ARTIGOS */
+.destaques h2 {
+margin-bottom: 16px;
+}
+
+.artigos-container {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.artigo {
+flex: 1 1 250px;
+border: 1px solid #ddd;
+padding: 16px;
+}
+
+.artigo img {
+max-width: 100%;
+display: block;
+margin-bottom: 12px;
+}
+
+/* FORMULÁRIO */
+.form-section {
+margin: 40px 0;
+}
+
+.form-article {
+max-width: 400px;
+}
+
+.login-form .form-group {
+margin-bottom: 16px;
+}
+
+.login-form label {
+display: block; /* display */
+margin-bottom: 4px;
+}
+
+.login-form input {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+}
+
+/* FOOTER */
+.site-footer {
+background-color: #f4f4f4;
+padding: 16px 32px;
+margin-top: 40px;
+}
+
+/* Exemplo de combinação de seletores por hierarquia */
+.footer-section .footer-article p {
+margin-bottom: 4px;
+}
+
+/* Exemplo de combinação de seletores hierárquica extra */
+.site-main .destaques .artigo h3 {
+color: #333;
 }
